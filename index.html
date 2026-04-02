@@ -1239,11 +1239,10 @@
     <p class="section-desc">You have more runway than it feels. Here's exactly where you are right now — and how much time remains.</p>
 
     <div class="progress-container fade-in">
-      <div class="progress-labels">
-        <span>Feb 10, 2026</span>
-        <span>15 months</span>
-        <span>17 months</span>
-        <span>Aug 10, 2027</span>
+      <!-- Labels ABOVE the bar: Start · 15 mo soft caution -->
+      <div style="position:relative; height: 34px;">
+        <div class="sublabel" style="left:0%; transform:translateX(0); bottom:0; top:auto; font-size:0.7rem; color:var(--sage-dark); font-weight:700;">Start<br><em style="font-size:0.65rem; font-weight:400;">Feb 10</em></div>
+        <div class="sublabel" style="left:83.33%; bottom:0; top:auto; font-size:0.7rem; color:#8A6800; font-weight:700;">15 mo<br><em style="font-size:0.65rem; font-weight:400;">soft caution</em></div>
       </div>
 
       <div class="progress-track" id="progress-track">
@@ -1264,11 +1263,10 @@
         </div>
       </div>
 
-      <div style="position:relative; height: 22px; margin-top: 6px;">
-        <div class="sublabel" style="left: 0%; font-size:0.7rem; color: var(--sage-dark); font-weight:700;">Start</div>
-        <div class="sublabel" style="left: 41.67%; font-size:0.7rem; color: var(--brown-light);">~May 6<br><em style="font-size:0.65rem">goal opens</em></div>
-        <div class="sublabel" style="left: 83.33%; font-size:0.7rem; color: #8A6800; font-weight:700;">15 mo<br><em style="font-size:0.65rem">soft caution</em></div>
-        <div class="sublabel" style="left: 100%; transform:translateX(-100%); font-size:0.7rem; color: #A05050; font-weight:700;">18 mo<br><em style="font-size:0.65rem">goal window end</em></div>
+      <!-- Labels BELOW the bar: ~May 6 goal opens · 18 mo end -->
+      <div style="position:relative; height: 34px; margin-top: 4px;">
+        <div class="sublabel" style="left:41.67%; top:0; font-size:0.7rem; color:var(--brown-light);">~May 6<br><em style="font-size:0.65rem; font-weight:400;">goal opens</em></div>
+        <div class="sublabel" style="left:100%; transform:translateX(-100%); top:0; font-size:0.7rem; color:#A05050; font-weight:700;">18 mo<br><em style="font-size:0.65rem; font-weight:400;">goal window end</em></div>
       </div>
     </div>
 
